@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, HashRouter as Router, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Carteira from "./carteira.component";
 import fotoMateus from "./foto-mateus.jpeg";
 import fotoVal from "./foto-val.jpeg";
@@ -7,7 +7,7 @@ import fotoVal from "./foto-val.jpeg";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route
             path="/mateus"
