@@ -9,7 +9,7 @@ function App() {
     <>
       <Routes>
         <Route
-          path="/mateus"
+          path="/"
           element={
             <Carteira
               nome="MATEUS MEDEIROS DE ASSIS BRITO"
