@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import Carteira from "./carteira.component";
 import fotoMateus from "./foto-mateus.jpeg";
 import fotoVal from "./foto-val.jpeg";
