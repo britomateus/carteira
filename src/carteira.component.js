@@ -7,7 +7,7 @@ import menu from "./menu.png";
 
 const Carteira = ({ nome, curso, rg, dataNasc, foto }) => {
   return (
-    <>
+    <div className="App">
       <div className="header">
         <div className="item">
           <img alt="" width="150px" src={dne} />
@@ -65,7 +65,7 @@ const Carteira = ({ nome, curso, rg, dataNasc, foto }) => {
         <img alt="" src={check} />
         <p class="text">Válido</p>
       </div>
-    </>
+    </div>
   );
 };
 

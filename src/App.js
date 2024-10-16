@@ -6,7 +6,7 @@ import fotoVal from "./foto-val.jpeg";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routes>
         <Route
           path="/mateus"
@@ -33,7 +33,7 @@ function App() {
           }
         />
       </Routes>
-    </div>
+    </>
   );
 }
 
