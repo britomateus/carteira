@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/carteira/static/css/main.3fc51ca5.css",
-    "main.js": "/carteira/static/js/main.525a4079.js",
+    "main.css": "/carteira/static/css/main.9a2d60cf.css",
+    "main.js": "/carteira/static/js/main.28fc6e80.js",
     "static/js/787.7adf3722.chunk.js": "/carteira/static/js/787.7adf3722.chunk.js",
     "static/media/une.png": "/carteira/static/media/une.6450363de66d34a33e0e.png",
     "static/media/foto-janis.jpeg": "/carteira/static/media/foto-janis.6f2820f97be95e64e46c.jpeg",
     "static/media/dne.png": "/carteira/static/media/dne.4e21cf9e93f5f731e585.png",
+    "static/media/apple-wallet.png": "/carteira/static/media/apple-wallet.fd6f36c6b933f3ecd60f.png",
     "index.html": "/carteira/index.html",
-    "main.3fc51ca5.css.map": "/carteira/static/css/main.3fc51ca5.css.map",
-    "main.525a4079.js.map": "/carteira/static/js/main.525a4079.js.map",
+    "main.9a2d60cf.css.map": "/carteira/static/css/main.9a2d60cf.css.map",
+    "main.28fc6e80.js.map": "/carteira/static/js/main.28fc6e80.js.map",
     "787.7adf3722.chunk.js.map": "/carteira/static/js/787.7adf3722.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fc51ca5.css",
-    "static/js/main.525a4079.js"
+    "static/css/main.9a2d60cf.css",
+    "static/js/main.28fc6e80.js"
   ]
 }
