@@ -1,6 +1,6 @@
 import "./App.css";
 import Carteira from "./carteira.component";
-import fotoJanis from "./foto-janis.jpeg";
+import fotoJanis from "./foto-janis.jpg";
 
 function App() {
   return (
