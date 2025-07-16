@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/carteira/static/css/main.9a2d60cf.css",
-    "main.js": "/carteira/static/js/main.28fc6e80.js",
+    "main.js": "/carteira/static/js/main.c5c6c69b.js",
     "static/js/787.7adf3722.chunk.js": "/carteira/static/js/787.7adf3722.chunk.js",
+    "static/media/foto-janis.jpg": "/carteira/static/media/foto-janis.d34ebbbab1baa04652d4.jpg",
     "static/media/une.png": "/carteira/static/media/une.6450363de66d34a33e0e.png",
-    "static/media/foto-janis.jpeg": "/carteira/static/media/foto-janis.6f2820f97be95e64e46c.jpeg",
     "static/media/dne.png": "/carteira/static/media/dne.4e21cf9e93f5f731e585.png",
     "static/media/apple-wallet.png": "/carteira/static/media/apple-wallet.fd6f36c6b933f3ecd60f.png",
     "index.html": "/carteira/index.html",
     "main.9a2d60cf.css.map": "/carteira/static/css/main.9a2d60cf.css.map",
-    "main.28fc6e80.js.map": "/carteira/static/js/main.28fc6e80.js.map",
+    "main.c5c6c69b.js.map": "/carteira/static/js/main.c5c6c69b.js.map",
     "787.7adf3722.chunk.js.map": "/carteira/static/js/787.7adf3722.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a2d60cf.css",
-    "static/js/main.28fc6e80.js"
+    "static/js/main.c5c6c69b.js"
   ]
 }
