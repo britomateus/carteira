@@ -1,9 +1,9 @@
-import qrcode from "./frame.png"; // Tell webpack this JS file uses this image
-import check from "./check.png"; // Tell webpack this JS file uses this image
+import appleWallet from "./apple-wallet.png"; // Tell webpack this JS file uses this image
 import dne from "./dne.png"; // Tell webpack this JS file uses this image
+import qrcode from "./frame.png"; // Tell webpack this JS file uses this image
 
-import une from "./une.png"; // Tell webpack this JS file uses this image
 import menu from "./menu.png";
+import une from "./une.png"; // Tell webpack this JS file uses this image
 
 const Carteira = ({ nome, curso, rg, dataNasc, foto }) => {
   return (
@@ -16,6 +16,25 @@ const Carteira = ({ nome, curso, rg, dataNasc, foto }) => {
         <div className="menuContainer">
           <img alt="" width="50px" src={une} />
           <img alt="" height={32} src={menu} />
+        </div>
+      </div>
+
+      <div className="notification-section">
+        <div className="notification-card">
+          <div className="notification-content">
+            <div className="notification-icon">
+              <span className="confetti-icon">🎉</span>
+            </div>
+            <div className="notification-text">
+              <h3 className="notification-title">Uhul! Chegou!</h3>
+              <p className="notification-description">
+                Desbloqueie seu DNE físico e aproveite.
+              </p>
+            </div>
+          </div>
+          <button className="unlock-button">
+            <span className="lock-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M240-640h360v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85h-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640Zm0 480h480v-400H240v400Zm240-120q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM240-160v-400 400Z"/></svg></span>
+          </button>
         </div>
       </div>
 
@@ -40,30 +59,29 @@ const Carteira = ({ nome, curso, rg, dataNasc, foto }) => {
         <div className="info">
           <span className="title">{nome}</span>
           <p>
-            <span>Ins. Ensino:</span> Universidade Federal do Rio Grande do
+            Ins. Ensino: Universidade Federal do Rio Grande do
             Norte
           </p>
           <p>
-            <span>Curso:</span> {curso}
+            Curso: {curso}
           </p>
           <p>
-            <span>Nível de Ensino:</span> SUPERIOR
+            Nível de Ensino: SUPERIOR
           </p>
           <p>
-            <span>RG:</span> {rg}
+            RG: {rg}
           </p>
           <p>
-            <span>Data de Nasc:</span> {dataNasc}
+            Data de Nasc: {dataNasc}
           </p>
           <p>
-            <span>Validade:</span> 31/03/2025
+            Validade: Mar/2026
           </p>
         </div>
       </div>
 
-      <div className="certified">
-        <img alt="" src={check} />
-        <p class="text">Válido</p>
+      <div className="apple-wallet-section">
+        <img alt="Adicionar à Carteira da Apple" src={appleWallet} className="apple-wallet-button" />
       </div>
     </div>
   );

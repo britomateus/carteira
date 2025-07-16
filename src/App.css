@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
 
 .App {
   /* === Sizing === */
@@ -9,9 +9,82 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #38baed;
+  background-color: #92C9B7;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Novos estilos para a seção Uhul! Chegou! */
+.notification-section {
+  width: 90%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.notification-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-content {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.notification-icon {
+  margin-right: 15px;
+}
+
+.confetti-icon {
+  font-size: 24px;
+  display: block;
+}
+
+.notification-text {
+  flex: 1;
+}
+
+.notification-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f2f2f;
+  margin: 0 0 4px 0;
+}
+
+.notification-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.unlock-button {
+  background-color: #FF6B35;
+  border: none;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.unlock-button:hover {
+  background-color: #E55A2B;
+}
+
+.lock-icon {
+  color: white;
+  font-size: 20px;
 }
 
 
@@ -52,7 +125,7 @@
 }
 
 .certified {
-  background: #3aa3ec;
+  background: #92C9B7;
     padding: 5px 13px;
     border-radius: 20px;
     display: flex;
@@ -84,15 +157,43 @@ span {
 
 p {
   margin-bottom: 0;
-  margin-top: 7px;
+  margin-top: 2px;
+  color: #2f2f2f;
 }
 
 .title {
   font-weight: 700;
+  color: #2f2f2f;
 }
 
 .container {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+/* Estilo para o botão da carteira da Apple */
+.apple-wallet-section {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple-wallet-button {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.apple-wallet-button:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.apple-wallet-button:active {
+  transform: scale(0.98);
 }
